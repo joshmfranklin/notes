@@ -1,3 +1,7 @@
+body {
+  font-family: helvetica, sans-serif;
+  background-image: url("/imgs/bgr_texture.png");
+}
 a {
   color: #00ECFF;
   text-decoration: none;
@@ -5,6 +9,20 @@ a {
 a:hover {
   color: #26797F;
 }
-body {
-  font-family: helvetica, sans-serif;
+.nav li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+}
+ul {
+  padding-left: 0px; 
+}
+
+#header {
+  border-bottom: 5px solid;
+  position: fixed;
+  padding-top: 20px;
+}
+#content {
+  padding-top: 111px;
 }
