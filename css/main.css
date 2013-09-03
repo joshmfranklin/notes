@@ -3,26 +3,38 @@ body {
   background-image: url("/imgs/bgr_texture.png");
 }
 a {
-  color: #00ECFF;
+  color: #6C6A6A;
   text-decoration: none;
 }
 a:hover {
-  color: #26797F;
+  color: black;
+  font-weight: bold;
+}
+/* nav styles */
+.nav {
+  margin-top:10px;
+  margin-bottom: 13px;
+}
+.nav a {
+  font-size: 13px;
 }
 .nav li {
   display: inline-block;
   list-style: none;
   padding-right: 15px;
+  line-height: 1.6em;
 }
 ul {
   padding-left: 0px; 
 }
-
 #header {
-  border-bottom: 5px solid;
-  position: fixed;
-  padding-top: 20px;
+  border-bottom: 5px #C2C2C2 solid;
+  margin-top: 26px;
+  margin-bottom: 17px;
 }
-#content {
-  padding-top: 111px;
+
+/* Post Styles */
+.posts {
+  list-style: none;
+  margin-top: 0px;
 }
