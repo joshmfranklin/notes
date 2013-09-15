@@ -2,7 +2,7 @@
 layout: post
 title:  "Two Birds, One Git Commit"
 date:   2013-09-03 12:40:00
-categories: git
+tags: git
 ---
 
 So I told my good friend [Brett Chalupa](http://brettchalupa.com) that I wanted to learn Git. He suggested that I learn git and document my learning at the same time. By utilizing [Jekyll](http://jekyllrb.com) I could kill two birds with one stone!
