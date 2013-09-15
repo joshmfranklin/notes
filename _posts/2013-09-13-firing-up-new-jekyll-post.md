@@ -28,7 +28,7 @@ It has been about a week since posting my first note to my new Jekyll based blog
 	</li>
 </ol>
 
-Once sublime is open you are free to create a new markdown file in your posts folder. I am just getting the hang of utilizing markdown to style posts. The markdown [wiki](http://en.wikipedia.org/wiki/Markdown) page is a good spot to start if you are new to markdown.
+Once your text editor is open you are free to create a new markdown file in your posts folder. I am just getting the hang of utilizing markdown to style posts. The markdown [wiki](http://en.wikipedia.org/wiki/Markdown) page is a good spot to start if you are new to markdown.
 
 From here, you can utilize your git commands to add, commit, and push new posts to your site via gh-pages! 
 
