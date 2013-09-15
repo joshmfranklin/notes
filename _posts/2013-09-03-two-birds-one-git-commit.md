@@ -9,4 +9,4 @@ So I told my good friend [Brett Chalupa](http://brettchalupa.com) that I wanted 
 
 As of September 13th I will be moving from Burlington, Vermont to New York City to begin a new career in UI/UX Design at [Pivotal Labs](http://pivotallabs.com). I want to utilize this new platform to document my learnings, questions, grumblings, and excitement. My hope is that by documenting my process it will help me learn faster and become a more involved member of the online design/development community. 
 
-Keep a lookout for more posts coming soon! 
+Keep a lookout for more posts coming soon!
