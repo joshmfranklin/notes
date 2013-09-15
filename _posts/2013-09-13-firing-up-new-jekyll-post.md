@@ -2,7 +2,7 @@
 layout: post
 title:  "Firing up Jekyll"
 date:   2013-09-13 09:41:00
-tags: git, Jekyll
+tags: git, github, Jekyll
 ---
 
 As promised I will be continuing to post my progress using Jekyll and other new development learnings I have gleaned since diving into this new realm of design/development.
