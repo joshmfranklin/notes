@@ -41,24 +41,13 @@ ul {
 
 }
 
-/*.posts ul li{
-  height: 150px;
-  padding: 10px 257px;
-  float: left;
-  box-sizing: border-box;
-  overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  border-bottom: 1px solid lightgrey;
-}*/
-
 .posts {
   padding-left: 20px;
   padding-top: 20px;
 }
 
 .post_block {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #C2C2C2;
   margin-bottom: 0px;
 }
 
@@ -76,18 +65,23 @@ ul {
   line-height: 24px; 
 }
 
-/* Post Styles */
+/* note Styles */
 .note_info h4 {
   margin-bottom: 5px;
 }
 .note_info p {
   margin: 5px 0;
 }
-.post {
+
+.note_container {
+  margin-top: 20px;
+}
+
+.note {
   line-height: 23px;
 }
 
-.post ol {
+.note ol {
   display: block;
   list-style-type: decimal;
   list-style-position: inside;
