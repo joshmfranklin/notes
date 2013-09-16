@@ -53,6 +53,7 @@ ul {
 
 .post_block:hover {
   background-color: #EDEDED;
+  border-bottom: 5px #c2c2c2 solid;
 }
 
 .post_title {
