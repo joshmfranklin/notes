@@ -9,6 +9,7 @@ a {
 a:hover {
   color: black;
 }
+
 /* nav styles */
 .nav {
   margin-top:10px;
@@ -25,23 +26,52 @@ a:hover {
 }
 ul {
   padding-left: 0px; 
+  margin-top: 0px;
 }
 #header {
   border-bottom: 5px #C2C2C2 solid;
   margin-top: 26px;
-  margin-bottom: 17px;
+  margin-bottom: 0px;
 }
 
 /* Post Styles */
-.posts {
+
+.post_container ul {
   list-style: none;
-  margin-top: 0px;
+
+}
+
+/*.posts ul li{
+  height: 150px;
+  padding: 10px 257px;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid lightgrey;
+}*/
+
+.posts {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.post_block {
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+}
+
+.post_block:hover {
+  background-color: #EDEDED;
+}
+
+.post_title {
+  font-size: 30px;
 }
 
 /* footer styles */
-.contact {
-  border-top: 2px #C2C2C2 solid;
-}
+
 .contact p {
   line-height: 24px; 
 }

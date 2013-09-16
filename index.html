@@ -4,11 +4,19 @@ title: Franklin Notes
 ---
 
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-    <div class="post_title grid_9">
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <div class="post_container container">
+    	<div class="grid_12 omega">
+	  			<ul>
+  					{% for post in site.posts %}
+					    <li class="post_block grid_12 omega">
+						    <div class="posts grid_7">
+						      <a class="post_title" href="{{ post.url }}">{{ post.title }}</a>
+						      <p>{{post.excerpt}}</p>
+						     </div>
+					    </li>
+  					{% endfor %}
+				</ul>
+			</div>
+		</div>
      </div>
-    {% endfor %}
-  </ul>
 </div>
