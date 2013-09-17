@@ -1,7 +1,19 @@
 body {
-  font-family: helvetica, sans-serif;
+  font-family: 'pt serif' times serif;
   background-image: url("/imgs/bgr_texture.png");
+  font-size: 20px;
 }
+
+h2 {
+  font-family: 'source sans pro' helvetica sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'source sans pro' helvetica sans-serif;
+  font-size: 28px;
+}
+
 a {
   color: #6C6A6A;
   text-decoration: none;
@@ -16,7 +28,8 @@ a:hover {
   margin-bottom: 13px;
 }
 .nav a {
-  font-size: 13px;
+  font-family: helvetica;
+  font-size: 14px;
 }
 .nav li {
   display: inline-block;
@@ -53,11 +66,19 @@ ul {
 
 .post_block:hover {
   background-color: #EDEDED;
-  border-bottom: 5px #c2c2c2 solid;
+  border-bottom: inset 5px #c2c2c2 solid;
 }
 
 .post_title {
-  font-size: 30px;
+  font-size: 42px;
+  font-family: 'source sans pro' helvetica sans-serif;
+  font-weight: 900;
+}
+
+.post_date {
+  font-size: 20px;
+  color: grey;
+  margin: 5px 0;
 }
 
 /* footer styles */
@@ -79,7 +100,7 @@ ul {
 }
 
 .note {
-  line-height: 23px;
+  line-height: 32px;
 }
 
 .note ol {

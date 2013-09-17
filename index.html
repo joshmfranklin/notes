@@ -9,9 +9,10 @@ title: Franklin Notes
 	  			<ul>
   					{% for post in site.posts %}
 					    <li class="post_block grid_12 omega">
-						    <div class="posts grid_7">
+					    	<div class="posts grid_7">
 						      <a class="post_title" href="{{ post.url }}">{{ post.title }}</a>
-						      <p>{{post.excerpt}}</p>
+						      <p class="post_date">{{ post.date | date: "%d %B %Y" }}</p>
+						      <p class="post_excerpt">{{post.excerpt}}</p>
 						     </div>
 					    </li>
   					{% endfor %}

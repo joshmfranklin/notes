@@ -39,7 +39,7 @@ From here, you can utilize your git commands to add, commit, and push new posts 
 		<p>Complete new blog post or changes to your jekyll site</p>
 	</li>
 	<li>
-		<p>Swith over to terminal and use <code>git add .</code> or <code>git add [filename]</code>, this will add your file contents to the staging area before you commit them.</p>
+		<p>Swith over to terminal and use <code>git add .</code> or<br> <code>git add [filename]</code>, this will add your file contents to the staging area before you commit them.</p>
 	</li>
 	<li>
 		<p>Next you will commit these changes with <code>git commit -m</code>, the <code>-m</code> allows you to attached a message to the git commit, such as "new blog post" or "update to post css". Place your message after the -m within parentheses. The entire commit message should be<br><code>git commit -m "commit message"</code></p>
