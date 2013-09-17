@@ -16,7 +16,7 @@ It has been about a week since posting my first note to my new Jekyll based blog
 		<p>Start up terminal or another third party application such as iTerm</p>
 	</li>
 	<li>
-		<p>Once you are in the terminal <code>cd</code> into your Jekyll blog file with <code>cd blog</code></p>
+		<p>Once you are in the terminal <code>cd</code> into your Jekyll blog file with<br> <code>cd blog</code></p>
 		<p><strong>NOTE</strong>: <em>After you have changed to your blog directory you will also be in gh-pages (GitHub Pages)</em></p>
 	</li>
 	<li>

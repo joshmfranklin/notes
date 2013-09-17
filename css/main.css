@@ -1,7 +1,7 @@
 body {
   font-family: 'pt serif' times serif;
   background-image: url("/imgs/bgr_texture.png");
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h2 {
@@ -70,7 +70,7 @@ ul {
 }
 
 .post_title {
-  font-size: 42px;
+  font-size: 32px;
   font-family: 'source sans pro' helvetica sans-serif;
   font-weight: 900;
 }
@@ -100,6 +100,7 @@ ul {
 }
 
 .note {
+  font-size: 22px;
   line-height: 32px;
 }
 
@@ -122,4 +123,5 @@ code {
   color: white;
   padding: 3px 10px;
   border-radius: 8px;
+  font-size: 18px;
 }
