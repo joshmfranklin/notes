@@ -2,16 +2,19 @@ body {
   font-family: 'pt serif' times serif;
   background-image: url("/imgs/bgr_texture.png");
   font-size: 18px;
+  color: #333332;
 }
 
 h2 {
   font-family: 'source sans pro' helvetica sans-serif;
   font-size: 40px;
+  color: #333332;
 }
 
 h3 {
   font-family: 'source sans pro' helvetica sans-serif;
   font-size: 28px;
+  color: #333332;
 }
 
 a {
