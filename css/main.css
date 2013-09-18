@@ -98,7 +98,8 @@ ul {
 
 /* note Styles */
 .note_info {
-  margin-top: 3px;
+  color: #6C6A6A;
+  margin-top: 9px;
   float: left;
 }
 
@@ -109,6 +110,7 @@ ul {
 .note_info h4 {
   margin-top: 2px;
   margin-bottom: 2px;
+  color: #6C6A6A;
 }
 
 .note_info .meta {
@@ -123,8 +125,8 @@ ul {
 }
 
 .note {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .note ol {

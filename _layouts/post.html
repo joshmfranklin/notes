@@ -3,9 +3,8 @@ layout: default
 ---
 <div class="note_container grid_12">
   <div class="note_info grid_3">
-    <h4>Note Info</h4>
-    <p class="meta">Date: {{ page.date | date_to_string }}</p>
-    <p class="meta">Tags: {{ page.tags }}</p>
+    <p class="meta">{{ page.date | date: "%d %B %Y" }}</p>
+    <p class="meta">{{ page.tags }}</p>
   </div>
   <div class="note_content grid_9 omega">
     <h2>{{ page.title }}</h2>
