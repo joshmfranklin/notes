@@ -21,7 +21,7 @@ It has been about a week since posting my first note to my new Jekyll based blog
 	</li>
 	<li>
 		<p>Next start up a local Jekyll server by using <code>jekyll serve --watch</code></p>
-		<p><strong>NOTE</strong>: <em>This will set up a local server for your to view your posts naitively in browser.</em></p>
+		<p><strong>NOTE</strong>: <em>This will set up a local server for your to view your posts natively in browser.</em></p>
 	</li>
 	<li>
 		<p>Start up your desired text editor from terminal (mine is Sublime Text 2) with <code>sublime .</code>
@@ -45,7 +45,7 @@ From here, you can utilize your git commands to add, commit, and push new posts 
 		<p>Next you will commit these changes with <code>git commit -m</code>, the <code>-m</code> allows you to attached a message to the git commit, such as "new blog post" or "update to post css". Place your message after the -m within parentheses. The entire commit message should be<br><code>git commit -m "commit message"</code></p>
 	</li>
 	<li>
-		<p>After you have commited your git content you will push it to gh-pages. To do this simply use <code>git push github gh-pages</code>, your changes should then be added your active blog and be ready for viewing!</p>
+		<p>After you have committed your git content you will push it to gh-pages. To do this simply use <code>git push github gh-pages</code>, your changes should then be added your active blog and be ready for viewing!</p>
 	</li>
 </ol>
 

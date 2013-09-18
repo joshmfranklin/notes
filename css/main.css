@@ -17,12 +17,18 @@ h3 {
   color: #333332;
 }
 
+h4 {
+  font-family: 'source sans pro' helvetica sans-serif;
+  font-size: 24px;
+  color: #333332;
+}
+
 a {
   color: #6C6A6A;
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: #292928;
 }
 
 /* nav styles */
@@ -91,8 +97,22 @@ ul {
 }
 
 /* note Styles */
+.note_info {
+  margin-top: 3px;
+  float: left;
+}
+
+.note_content {
+  float: right;
+}
+
 .note_info h4 {
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.note_info .meta {
+  margin: 0;
 }
 .note_info p {
   margin: 5px 0;
