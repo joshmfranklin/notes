@@ -45,7 +45,7 @@ From here, you can utilize your git commands to add, commit, and push new posts 
 		<p>Next you will commit these changes with <code>git commit -m</code>, the <code>-m</code> allows you to attached a message to the git commit, such as "new blog post" or "update to post css". Place your message after the -m within parentheses. The entire commit message should be<br><code>git commit -m "commit message"</code></p>
 	</li>
 	<li>
-		<p>After you have committed your git content you will push it to gh-pages. To do this simply use <code>git push github gh-pages</code>, your changes should then be added your active blog and be ready for viewing!</p>
+		<p>After you have committed your git content you will push it to gh-pages. To do this simply use <code>git push github gh-pages</code>, your changes should then be added your active blog and be ready <br>for viewing!</p>
 	</li>
 </ol>
 
