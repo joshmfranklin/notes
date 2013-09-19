@@ -16,19 +16,19 @@ It has been about a week since posting my first note to my new Jekyll based blog
 		<p>Start up terminal or another third party application such as iTerm</p>
 	</li>
 	<li>
-		<p>Once you are in the terminal <code>cd</code> into your Jekyll blog file with<br> <code>cd blog</code></p>
+		<p>Once you are in the terminal <code>cd</code> into your Jekyll blog directory with<br> <code>cd [directory_name]</code></p>
 		<p><strong>NOTE</strong>: <em>After you have changed to your blog directory you will also be in gh-pages (GitHub Pages)</em></p>
 	</li>
 	<li>
 		<p>Next start up a local Jekyll server by using <code>jekyll serve --watch</code></p>
-		<p><strong>NOTE</strong>: <em>This will set up a local server for your to view your posts natively in browser.</em></p>
+		<p><strong>NOTE</strong>: <em>This will set up a local server for you to view your posts natively in browser.</em></p>
 	</li>
 	<li>
 		<p>Start up your desired text editor from terminal (mine is Sublime Text 2) with <code>sublime .</code>
 	</li>
 </ol>
 
-Once your text editor is open you are free to create a new markdown file in your posts folder. I am just getting the hang of utilizing markdown to style posts. The markdown [wiki](http://en.wikipedia.org/wiki/Markdown) page is a good spot to start if you are new to markdown.
+Once your text editor is open you are free to create a new markdown file in your "_posts" folder. I am just getting the hang of utilizing markdown to style posts. The markdown [wiki](http://en.wikipedia.org/wiki/Markdown) page is a good spot to start if you are new to markdown.
 
 From here, you can utilize your git commands to add, commit, and push new posts to your site via gh-pages! 
 
@@ -36,7 +36,7 @@ From here, you can utilize your git commands to add, commit, and push new posts 
 
 <ol>
 	<li>
-		<p>Complete new blog post or changes to your jekyll site</p>
+		<p>Complete new blog post or changes to your Jekyll site</p>
 	</li>
 	<li>
 		<p>Swith over to terminal and use <code>git add .</code> or<br> <code>git add [filename]</code>, this will add your file contents to the staging area before you commit them.</p>
